@@ -1,0 +1,42 @@
+[
+  {
+    "id": "halal-2025",
+    "nama": "Sertifikat Halal",
+    "kategori": "Halal",
+    "produk": "Semua produk lini A",
+    "penerbit": "BPJPH / MUI",
+    "masaBerlaku": "2025-01-10 s/d 2027-01-09",
+    "deskripsi": "Sertifikat halal resmi yang menyatakan produk telah memenuhi standar kehalalan.",
+    "file": "sertifikat-halal-2025.pdf"
+  },
+  {
+    "id": "bpom-2025",
+    "nama": "Izin Edar BPOM",
+    "kategori": "BPOM",
+    "produk": "Semua produk lini A & B",
+    "penerbit": "BPOM RI",
+    "masaBerlaku": "2025-03-01 s/d 2030-02-28",
+    "deskripsi": "Nomor izin edar BPOM yang menunjukkan produk telah lolos uji keamanan pangan/kosmetik.",
+    "file": "izin-edar-bpom-2025.pdf"
+  },
+  {
+    "id": "nkv-2024",
+    "nama": "Sertifikat NKV (Nomor Kontrol Veteriner)",
+    "kategori": "NKV",
+    "produk": "Unit pengolahan berbahan hewani",
+    "penerbit": "Dinas Peternakan & Kesehatan Hewan",
+    "masaBerlaku": "2024-06-15 s/d 2027-06-14",
+    "deskripsi": "Sertifikat yang menunjukkan unit usaha telah memenuhi persyaratan higiene-sanitasi.",
+    "file": "sertifikat-nkv-2024.pdf"
+  },
+  {
+    "id": "iso22000-2024",
+    "nama": "ISO 22000 - Food Safety Management System",
+    "kategori": "ISO",
+    "produk": "Seluruh fasilitas produksi",
+    "penerbit": "Lembaga Sertifikasi Independen",
+    "masaBerlaku": "2024-09-01 s/d 2027-08-31",
+    "deskripsi": "Sertifikasi sistem manajemen keamanan pangan internasional.",
+    "file": "iso-22000-2024.pdf"
+  }
+]

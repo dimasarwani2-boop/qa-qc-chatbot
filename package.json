@@ -1,0 +1,17 @@
+{
+  "name": "qaqc-doc-assistant",
+  "version": "1.0.0",
+  "description": "Chatbot AI (Gemini) untuk QA/QC Document Assistant - menjawab pertanyaan customer/auditor eksternal dan membagikan dokumen kualitas (Sertifikat Halal, BPOM, NKV, dll).",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^0.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}

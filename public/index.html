@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>QA/QC Document Assistant</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="app-header">
+      <div class="seal" aria-hidden="true">
+        <svg viewBox="0 0 40 40" width="26" height="26">
+          <path d="M20 2 L24 8 L31 6 L31 13 L38 16 L33 21 L38 26 L31 29 L31 36 L24 34 L20 40 L16 34 L9 36 L9 29 L2 26 L7 21 L2 16 L9 13 L9 6 L16 8 Z" fill="currentColor"/>
+        </svg>
+      </div>
+      <div class="header-text">
+        <h1>QA/QC Document Assistant</h1>
+        <p>Bantuan dokumen legalitas &amp; kualitas produk — Halal, BPOM, NKV, ISO</p>
+      </div>
+      <span class="status-dot" title="Online"></span>
+    </header>
+
+    <main id="chat" class="chat" aria-live="polite">
+      <div class="msg bot">
+        <div class="bubble">
+          Selamat datang. Saya asisten QA/QC untuk membantu Anda mendapatkan informasi dan
+          salinan dokumen kualitas produk kami (Sertifikat Halal, Izin Edar BPOM, NKV, ISO, dll).
+          Silakan sampaikan dokumen apa yang Anda butuhkan.
+        </div>
+      </div>
+    </main>
+
+    <form id="chat-form" class="composer">
+      <input
+        id="chat-input"
+        type="text"
+        placeholder="Contoh: Saya butuh sertifikat halal untuk produk lini A"
+        autocomplete="off"
+        required
+      />
+      <button type="submit" aria-label="Kirim">Kirim</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
